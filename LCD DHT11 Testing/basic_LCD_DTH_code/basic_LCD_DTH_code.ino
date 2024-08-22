@@ -19,7 +19,8 @@ dht DHT;
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7); 
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(9600); // opens serial port, sets data rate to 9600 bps
+  // Arduino Uno has one serial port
   lcd.begin(16,2);    //set 16 columns and 2 rows for the 16x2 LCD
 }
 
