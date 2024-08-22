@@ -1,5 +1,5 @@
 //Interface the DHT11 Temp & Humidity sensor and display humidity and temperature
-//in Celsius on a 16x2 character LCD
+//in Farenheit on a 16x2 character LCD
 
 #include <dht.h>
 #include <LiquidCrystal.h>
@@ -14,7 +14,8 @@ int DHT11_PIN = 8;
 
 dht DHT;
 // const int RS = 2, EN = 3, D4 = 4, D5 = 5, D6 = 6, D7 = 7;
-// LiquidCrystal lcd(RS, EN, D4, D5, D6, D7)
+
+// LiquidCrystal lcd(RS, EN, D4, D5, D6, D7);
 // These are the pins on the arduino
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7); 
 
